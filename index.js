@@ -43,6 +43,9 @@ class CountdownTimer {
       this.changeDate();
     }, 1000);
   }
+  viewError() {
+    document.querySelector(this.selector).innerHTML = "Timer is over";
+  }
 }
 
 new CountdownTimer({
