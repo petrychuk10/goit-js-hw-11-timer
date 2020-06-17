@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  color: #9c9c9c;
+}
+
+.timer {
+  display: flex;
+  justify-content: flex-between;
+}
+
+.field {
+  flex-direction: column;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+}
+
+.value {
+  background-color: #211221;
+  color: #fff;
+  border-radius: 4px;
+}
